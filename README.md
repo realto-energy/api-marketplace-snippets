@@ -36,7 +36,7 @@ json = response.json()
 ```
 // example.js
 
-import axios from 'axios'; // Alternatively const axios = require('axios.js') depending on your set-up
+import axios from 'axios'; // Alternatively const axios = require('axios') depending on your specific set-up
 const BASE_URL = ''; // Base URL of request, e.g. https://api.realto.io/example
 const headers = { 'OCP-Apim-Subscription-Key': 'Your API subscription key'}
 const params = { exampleKey: 'exampleValue' }; // Any query parameters to include
